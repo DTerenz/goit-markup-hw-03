@@ -1,0 +1,290 @@
+/* top line bg */
+.navigation {
+  background: #ffffff;
+  display: flex;
+}
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.sections{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* end top line bg */
+
+/* logo */
+.logo-web {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 93px;
+  align-items: center;
+}
+
+.logo-studio-header {
+  color: #000000;
+}
+
+/* end logo */
+
+.header {
+}
+
+/*  navigation  */
+.menu {
+  list-style: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:not(:last-child){
+  margin-right: 50px;
+}
+.name-card {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.mail-link{
+  margin-right: 50px;
+}
+.name-filter {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.link {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+.link:hover {
+  color: #2196f3;
+}
+.studio {
+}
+.portpholio {
+  border-bottom:2px solid #2196f3;
+}
+
+.contacts-menu {
+  list-style: none;
+  display: flex;
+}
+
+.contacts-menu-item {
+  font-size: 14px;
+  font-weight: 500;
+  color: #757575;
+  text-decoration: none;
+}
+.contacts-menu-item:hover {
+  color: #2196f3;
+}
+/*  end navigation  */
+/*  maine section  */
+
+.main-section {
+}
+
+/*  end maine section  */
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+/* buttons  */
+
+.filter-button {
+  list-style: none;
+  display: flex;
+ margin-left: 280px;
+}
+.all-buttons {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: #212121;
+  border: none;
+  padding:6px 22px;
+  margin-right: 8px;
+}
+.all-buttons:hover {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+.web-site-button {
+  border: none;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+.web-site-button:hover {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+.app-button {
+  border: none;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+.app-button:hover {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+.desing-button {
+  border: none;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.desing-button:hover {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+.marketing-button {
+  border: none;
+
+  background: #f5f4fa;
+}
+.marketing-button:hover {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+
+/*  end buttons  */
+
+/*  text properties  */
+
+/*  end text properties  */
+
+/*  projects   */
+
+img {
+  width: 370px;
+  height: 294px;
+}
+
+.list {
+  margin-top: 54px;
+}
+
+.list-item {
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.list-item:not(:nth-child(-n+3)){
+  margin-top: 30px;
+}
+
+
+.title-box{
+padding-left: 24px;
+}
+
+/*  end projects  */
+
+/*  footer  */
+.back {
+  background: #2f303a;
+}
+
+.end-logo {
+  display: flex;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-studio {
+  display: flex;
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.contact {
+  
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts-end {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contacts-end-mail {
+}
+.contacts-end-tel {
+}
+
+.superscription {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+/*  end footer  */

@@ -14,7 +14,6 @@
 }
 
 .header-container{
-  justify-content: space-between;
   display: flex;
   align-items: center;
 }
@@ -48,6 +47,9 @@
 /* end logo */
 
 .header {
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /*  navigation  */
@@ -67,6 +69,8 @@
   margin-right: 50px;
 }
 .name-card {
+  margin: 0px;
+  padding: 0px;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -78,6 +82,8 @@
   margin-right: 50px;
 }
 .name-filter {
+  margin: 0px;
+  padding: 0px;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -94,13 +100,15 @@
 }
 .studio {
 }
-.portpholio {
-  border-bottom:2px solid #2196f3;
+ul{
+  padding: 0px;
+  margin: 0px;
 }
 
 .contacts-menu {
   list-style: none;
   display: flex;
+  padding-left: 331px;
 }
 
 .contacts-menu-item {
@@ -126,6 +134,8 @@ body {
 /* buttons  */
 
 .filter-button {
+  padding: 0px;
+  margin: 0px;
   list-style: none;
   display: flex;
  margin-left: 280px;
@@ -209,13 +219,16 @@ img {
 }
 
 .list {
-  margin-top: 54px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 50px;
+  
 }
 
 .list-item {
+  margin: 0px;
+  padding: 0px;
   display: inline-block;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
 
@@ -226,6 +239,10 @@ img {
 
 .title-box{
 padding-left: 24px;
+background: #ffffff;
+border-right: 1px solid #eeeeee;
+border-left: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
 }
 
 /*  end projects  */
@@ -236,7 +253,6 @@ padding-left: 24px;
 }
 
 .end-logo {
-  display: flex;
   text-decoration: none;
   font-family: Raleway;
   font-style: normal;
@@ -245,9 +261,9 @@ padding-left: 24px;
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-bottom: 20px;
 }
 .logo-studio {
-  display: flex;
   color: #ffffff;
   font-family: Raleway;
   font-style: normal;
@@ -257,7 +273,6 @@ padding-left: 24px;
   letter-spacing: 0.03em;
 }
 .contact {
-  
   list-style: none;
   font-style: normal;
   font-weight: normal;
@@ -265,6 +280,8 @@ padding-left: 24px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  margin: 0px;
+  padding: 0px;
 }
 .contacts-end {
   font-style: normal;

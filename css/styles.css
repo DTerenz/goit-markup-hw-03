@@ -1,6 +1,24 @@
+:root{
+  --nav-background-color: #ffffff;
+  --logo-web-color: #2196f3;
+  --logo-studio-header-color: #000000;
+  --header-border-bottom-color: #ececec;
+  --link-color: #212121;
+  --hover-focus-color: #2196f3;
+  --contact-menu-itam-color: #757575;
+  --background-head-color: #2f303a;
+  --our-team-bloc-background-color: #f5f4fa;
+  --contacts-end-color:rgba(255, 255, 255, 0.6);
+  --text-shadow-logo: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --team-card-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
 /* top line bg */
 .navigation {
-  background: #ffffff;
+  background: var(--nav-background-color);
   display: flex;
   align-items: center;
 }
@@ -27,19 +45,19 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--logo-web-color);
+  text-shadow: var(--text-shadow-logo);
   margin-right: 93px;
 }
 
 .logo-studio-header {
-  color: #000000;
+  color: var(--logo-studio-header-color);
 }
 
 /* end logo */
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--header-border-bottom-color);
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -66,20 +84,18 @@
 }
 
 .link {
-  color: #212121;
+  color: var(--link-color);
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 .link:focus {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
-.studio {
-  border-bottom: 2px solid #2196f3;
-}
+
 .portpholio {
 }
 .contaccts {
@@ -87,27 +103,24 @@
 .contacts-menu {
   list-style: none;
   display: flex;
-  padding-left: 331px;
+ margin-left: auto;
 }
 
 .menu-item-contact:not(:last-child) {
   margin-right: 50px;
 }
-.menu-item-contact:last-child {
-  margin-right: auto;
-}
 
 .contacts-menu-item {
   font-size: 14px;
   font-weight: 500;
-  color: #757575;
+  color: var(--contact-menu-itam-color);
   text-decoration: none;
 }
 .contacts-menu-item:hover {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 .contacts-menu-item:focus {
-  color: #2196f3;
+  color: var(--hover-focus-color);
 }
 
 /*  end navigation  */
@@ -116,7 +129,7 @@
 .background-head {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: #2f303a;
+  background: var(--background-head-color);
 }
 .effect {
   margin: 0px;
@@ -127,7 +140,7 @@
   line-height: 60px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--nav-background-color);
   text-align: center;
 }
 
@@ -142,8 +155,8 @@ button {
   font-weight: bold;
   font-size: 16px;
   font-family: inherit;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--nav-background-color);
+  background-color: var(--hover-focus-color);
   border: none;
   cursor: pointer;
 }
@@ -168,11 +181,18 @@ button {
   margin-right: 30px;
 }
 
+.specific-item{
+  margin: 0px;
+  padding: 0px;
+}
+
 .specific-description {
+  margin: 0px;
+  padding: 0px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--contact-menu-itam-color);
 }
 body {
   font-family: Roboto;
@@ -201,8 +221,8 @@ ul{
   text-align: center;
   letter-spacing: 0.03em;
   font-family: Roboto;
-  weight: 700;
-  color: #212121;
+  font-weight: 700;
+  color: var(--link-color);
   margin-bottom: 50px;
   margin-top: 0px;
   margin-bottom: 50px;
@@ -215,6 +235,12 @@ ul{
 .images:not(:last-child) {
   margin-right: 30px;
 }
+
+img{
+  display:block;
+  max-width: 100%;
+}
+
 
 /*  end gallery  */
 
@@ -229,13 +255,13 @@ ul{
   letter-spacing: 0.03em;
   font-family: Roboto;
   weight: 700;
-  color: #212121;
+  color: var(--link-color);
   margin: 0px;
   margin-bottom: 50px;
 }
 
 .our-team-bloc {
-  background: #f5f4fa;
+  background: var(--our-team-bloc-background-color);
 }
 .team-list {
   margin: 0px;
@@ -245,9 +271,8 @@ ul{
 }
 
 .team-card {
-  background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: var(--nav-background-color);
+  box-shadow: var(--team-card-box-shadow);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -266,7 +291,7 @@ ul{
   letter-spacing: 0.03em;
   margin: 0px;
   margin-bottom: 10px;
-  color: #212121;
+  color: var(--link-color);
 }
 
 .name-working {
@@ -275,17 +300,27 @@ ul{
   text-align: center;
   letter-spacing: 0.03em;
   margin: 0px;
-  color: #757575;
+  color: var(--contact-menu-itam-color);
 }
 .worker-bloc{
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /*  end our team  */
 
 /*  footer  */
+
+
+
 .back {
-  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--background-head-color);
+}
+
+
+.address{
+  margin-top: 20px;
 }
 
 .end-logo {
@@ -296,11 +331,11 @@ ul{
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--logo-web-color);
   margin-bottom: 20px;
 }
 .logo-studio {
-  color: #ffffff;
+  color: var(--nav-background-color);
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -314,7 +349,7 @@ ul{
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--nav-background-color);
   margin: 0px;
   padding: 0px;
 }
@@ -322,7 +357,7 @@ ul{
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-end-color);
   text-decoration: none;
 }
 .contacts-end-mail {
@@ -336,7 +371,7 @@ ul{
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--nav-background-color);
   text-decoration: none;
 }
 
